@@ -8,6 +8,10 @@ import {
 
 import Torch from 'react-native-torch';
 
+import {
+  POWER,
+} from './assets/images';
+
 export default class App extends Component {
   state = {
     isAlight: false
@@ -25,7 +29,7 @@ export default class App extends Component {
         >
           <Image
             style={styles.btnImage}
-            source={require('./assets/images/power.png')}
+            source={POWER}
           />
         </TouchableOpacity>
       </View>
